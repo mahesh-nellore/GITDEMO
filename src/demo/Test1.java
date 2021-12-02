@@ -12,7 +12,10 @@ public class Test1 {
 		return a*b;
 	}
 	
-	public static void main(String[] args) {
+	static boolean verifyEvenNumber(int number) {
+		if(number%2==0)
+			return true;
+		return false;
 		
 	}
 
