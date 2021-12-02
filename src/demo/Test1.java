@@ -19,10 +19,13 @@ public class Test1 {
 		
 	}
 	static boolean verifyOddNumber(int number) {
+		System.out.println("Verify Odd Number");
 		if(number%2!=0)
 			return true;
 		return false;
 		
 	}
+	
+	
 
 }
